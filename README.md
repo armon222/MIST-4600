@@ -4,9 +4,9 @@
 Group 4
 
 ## Team Members
-1) Joey Lund @jl4600 
-2) Armon Parsa @armon222
-3) Kyle Szabo @kszabo2390
+1) Joey Lund (@jl4600)[https://github.com/jl4600] 
+2) Armon Parsa (@armon222)[https://github.com/armon222]
+3) Kyle Szabo (@kszabo2390)[https://github.com/kszabo2390]
 
 ## Problem Description:
 
