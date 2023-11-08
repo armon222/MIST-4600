@@ -1,7 +1,7 @@
 # Team 4 MIST 4610 Group Project 1
 
 ## Team Name
-Group 4
+15061 Group 4
 
 ## Team Members
 1) Joey Lund [@jl4600](https://github.com/jl4600) 
