@@ -52,40 +52,39 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 ### Table: FavoritePlayers
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/fe1c7831-8955-4ac7-9025-079289afdb13)
+![pic5](https://github.com/armon222/MIST-4600/assets/62662242/86afdfff-ea42-45f9-8c53-c0c962726be9)
 
 ### Table: Managers
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/3197194d-230f-4120-83ab-db6fb6c3bc17)
+![pic6](https://github.com/armon222/MIST-4600/assets/62662242/85c83a57-ec2b-4035-ab38-e3509f972bbd)
 
 ### Table: Sponsors
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/9ab5d236-dd7f-4cd2-8112-bd1dc90cfe26)
+![pic7](https://github.com/armon222/MIST-4600/assets/62662242/7dc9d16c-751e-45b6-a85f-e28a25d93cf5)
 
 ### Table: Sponsorships
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/87f9e193-17af-45bc-8437-0d5cae01705f)
+![pic8](https://github.com/armon222/MIST-4600/assets/62662242/94eebddd-b633-4102-97e9-17ae9c8612da)
 
 ### Table: Stadium
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/ee7a2190-da5c-4673-a4cc-e62543e02b5e)
+![pic9](https://github.com/armon222/MIST-4600/assets/62662242/f80f3059-4634-4298-a400-e488a8bd35a0)
 
 ### Table: Youth Academy
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/ff190c37-fb64-44e2-bc3e-bb50d5e8511b)
+![pic10](https://github.com/armon222/MIST-4600/assets/62662242/7fce634d-265c-45cc-b0cf-3a3e30915597)
 
 ### Table: Players
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/62799eb1-8107-4790-b10e-04c54bcab042)
+![pic11](https://github.com/armon222/MIST-4600/assets/62662242/1b2ea803-7e92-4b70-b4af-e6d48c3b7b4d)
 
 ### Table: Injuries
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/6414d925-7bcb-40c0-a2db-47d1aee66724)
+![pic12](https://github.com/armon222/MIST-4600/assets/62662242/5d854cae-84c0-41e2-8acb-94ffb3d35ea3)
 
 ### Table: Manager_has_Coaches
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/e2c73b61-41cd-4fc4-aa45-82172287582d)
-
+![pic13](https://github.com/armon222/MIST-4600/assets/62662242/3a3f87a9-520e-4c90-a9ad-dca1066eb144)
 
 ## Queries
 
