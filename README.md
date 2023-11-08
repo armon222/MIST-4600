@@ -172,3 +172,9 @@ Query 10 lists the player's last name, player position, coaching role, and the a
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/1d9e9d90-c377-4d9a-b480-c906448a0fe0)
 
 Query 10 demonstrates which players are getting the most yellow cards, and which coach is their position coach. Query 10 is a good way to evaluate which players are the most undisciplined, so the coaching staff can try to help the player fix this issue. Query 10 also shows which coach has the most undisciplined players, which implies this coach may need to change their tactics. Query 10 is also a good tool for player evaluation, especially when negotiating player salaries.
+
+## Database Information
+
+Name of the database: cs_g4p1
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
