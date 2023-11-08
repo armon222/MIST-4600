@@ -115,7 +115,8 @@ Query 2 allows the managers to see who the most popular players on the team are 
 
 Query 3 lists the Fan's first and last name, email address, and amount spent on team merchandise that are season ticket holders.
 
-![query 3 project](https://github.com/armon222/MIST-4600/assets/148259051/4e4005d2-4ab6-4746-a972-d1257dad360a)
+![query3project](https://github.com/armon222/MIST-4600/assets/148259051/e371f086-192c-4e1b-b34a-477c71db9491)
+
 
 
 Query 3 shows the management team the new Fans of the team and their contact information. This is valuable information because the team now can further contact these Fans with more deals and ways to get them into more games. The Lions also know how much they spend on Merchandise, so they can specifically offer them deals related to the cost of items they tend to purchase. 
