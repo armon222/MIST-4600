@@ -44,7 +44,7 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 ### Table: Coaches
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/4198559d-c50f-432b-85f3-eafee03ce2f1)
+![pic3](https://github.com/armon222/MIST-4600/assets/62662242/1e424e94-743b-43e2-8f72-07069339fe91)
 
 ### Table: Fans
 
