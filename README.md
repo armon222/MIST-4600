@@ -138,7 +138,7 @@ Query 6 shows the manager's last name, manager's role in the front office, and t
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/6d73f7fe-7e43-49ce-8326-dd00fb232402)
 
-Query 6 illustrates the value of the top executives to the team. This information could help decision-making when deciding a manager's salary down the line or a comparable to new manager salaries when they are hiring. The numbers listed above can serve as a baseline for negotiations between ownership and the team.
+Query 6 illustrates the value of the top executives to the team. This information could help decision-making when deciding a manager's salary down the line or a comparable to new manager salaries when they are hiring. The numbers listed above can serve as a baseline for negotiations between ownership and the managers.
 
 ### Query 7
 
