@@ -106,7 +106,7 @@ Query 2 lists the favorite players of fans who are from the United States. The q
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/4fb2e766-906b-46fd-a573-4e6f2813c9c6)
 
-Query 2 allows the managers to see who the most popular players on the team are who are from the United States. This is particularly important since the Lions play in Georgia the American players might be more marketable to the fans. Seeing this information might help the management team figure out which players to use in community events or to promote the team locally. 
+Query 2 allows the managers to see who the most popular players on the team are who are from the United States. This is particularly important since the Lions play in Georgia and the American players might be more marketable to the fans. Seeing this information might help the management team figure out which players to use in community events or to promote the team locally. 
 
 ### Query 3
 
