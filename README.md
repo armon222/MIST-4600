@@ -94,8 +94,7 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 ### Query 1
 
-Query lists the injuries players on the Lions have suffered playing at their home field. Results are ordered by Player's Last Name in descending order.
-
+Query lists the injuries players on the Lions have suffered playing at their home field. 
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/a531848b-c179-4214-9e79-383586a95f40)
 
