@@ -37,5 +37,3 @@ Lastly, the Fans entity and Players entity has a many to many relationship, beca
 
 
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/18813714-7174-4a80-85ed-7fb77afd6a6a)
-
