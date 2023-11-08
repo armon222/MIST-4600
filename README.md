@@ -32,8 +32,8 @@ The sponsors table describes the important details about our club sponsors like 
 Lastly, the Fans entity and Players entity have a many-to-many relationship, because fans like many Players, and Players have many Fans. We created the Favorite Players entity to track which Players are fan favorites!
 
 ### The Data Model
-![image](https://github.com/armon222/MIST-4600/assets/62662242/88d1fe69-6064-4164-99c0-42c5e63dd189)
 
+![pic1](https://github.com/armon222/MIST-4600/assets/62662242/0f569885-8670-45c4-9873-c9ff335f961b)
 
 ## Data Dictionary
 ![Otto_Octavius_in_Spider-Man_2](https://github.com/armon222/MIST-4600/assets/62662242/af19dc23-791b-4662-8e1b-ee82d92012c5)
