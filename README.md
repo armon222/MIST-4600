@@ -89,7 +89,8 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 ### Feature Matrix
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/d30d178b-a4c1-4835-b00a-44f96d633f64)
+![image matrix](https://github.com/armon222/MIST-4600/assets/148259051/51953ddf-b6d2-4383-b79d-37e64e7b5263)
+
 
 ### Query 1
 
