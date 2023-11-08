@@ -10,7 +10,7 @@
 
 ## Problem Description:
 
-The challenge is to model and build a relational database for the operations of a new football club called the Georgia Lions. In the model, the main entity is Players, which describes all of the player's personal information and statistics on the field. The other entities either support, magnify, monetize, or track player performance and relationships with other parts of the Georgia Lions operation. For this new team, we want to comprehensively model these relationships, obtain data for the entities, and use queries to answer questions that will help evaluate performance on and off the field of the club. 
+The challenge is to model and build a relational database for the operations of a new football club called the Georgia Lions. In the model, the main entity is Players, which describes all of the player's personal information and statistics on the field. The other entities either support, magnify, monetize, or track player performance and relationships with other parts of the Georgia Lions operation. For this new team, we want to comprehensively model these relationships, obtain data for the entities, and use queries to answer questions that will help evaluate performance of the club. 
 
 ## Data Model:
 
@@ -164,3 +164,11 @@ Query 9 lists the match result and match opponent for matches in the Lions' home
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/cbe47bec-7337-4fb2-a7c2-62a4b14f9399)
 
 Query 9 is important to the organization because it illustrates how the team is performing on the home field. Even though these matches are worth the same as away games in the standings, these games are more important because our Fans pay good money to attend the games and we want to put on a winning product for them. So it's very important to win lots of games at home to appease the fans, sponsors, and management. 
+
+### Query 10
+
+Query 10 lists the player's last name, player position, coaching role, and the average amount of yellow cards for each player. This information is only shown if the player has an average amount of yellow cards greater or equal to 1.
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/1d9e9d90-c377-4d9a-b480-c906448a0fe0)
+
+Query 10 demonstrates which players are getting the most yellow cards, and which coach is their position coach. Query 10 is a good way to evaluate which players are the most undisciplined, so the coaching staff can try to help the player fix this issue. Query 10 also shows which coach has the most undisciplined players, which implies this coach may need to change their tactics. Query 10 is also a good tool for player evaluation, especially when negotiating player salaries.
