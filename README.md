@@ -36,7 +36,6 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 ![pic1](https://github.com/armon222/MIST-4600/assets/62662242/0f569885-8670-45c4-9873-c9ff335f961b)
 
 ## Data Dictionary
-![Otto_Octavius_in_Spider-Man_2](https://github.com/armon222/MIST-4600/assets/62662242/af19dc23-791b-4662-8e1b-ee82d92012c5)
 
 ### Table: Matches
 
