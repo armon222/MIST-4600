@@ -106,7 +106,8 @@ Query one allows the managers to see the number and type of injuries occurring t
 
 Query 2 lists the favorite players of fans who are from the United States. The query concatenates the player's first and last name, and results are ordered by the player's first and last name descending.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/4fb2e766-906b-46fd-a573-4e6f2813c9c6)
+![query 2 project A](https://github.com/armon222/MIST-4600/assets/148259051/c4475963-4a50-4612-82e9-d394a8e73d0e)
+
 
 Query 2 allows the managers to see who the most popular players on the team are who are from the United States. This is particularly important since the Lions play in Georgia and the American players might be more marketable to the fans. Seeing this information might help the management team figure out which players to use in community events or to promote the team locally. 
 
@@ -114,7 +115,8 @@ Query 2 allows the managers to see who the most popular players on the team are 
 
 Query 3 lists the Fan's first and last name, email address, and amount spent on team merchandise that are season ticket holders.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/0159ff76-5e61-4704-be1c-c9550ef2901e)
+![query 3 project](https://github.com/armon222/MIST-4600/assets/148259051/4e4005d2-4ab6-4746-a972-d1257dad360a)
+
 
 Query 3 shows the management team the new Fans of the team and their contact information. This is valuable information because the team now can further contact these Fans with more deals and ways to get them into more games. The Lions also know how much they spend on Merchandise, so they can specifically offer them deals related to the cost of items they tend to purchase. 
 
@@ -122,7 +124,8 @@ Query 3 shows the management team the new Fans of the team and their contact inf
 
 Query 4 lists the player's first and last name, and the type of injury sustained only for players who have scored higher than the average amount of goals on the team. 
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/a45e3b4b-2903-49be-b79f-4b59c8bc5d48)
+![query 4 project](https://github.com/armon222/MIST-4600/assets/148259051/989b39d1-48a5-488e-bf66-53bfe64d7493)
+
 
 Query 4 is very important for the coaching staff because this shows the types of injuries being suffered by the team's best scoring threats. The organization needs to know what type of injuries these players sustained, so they figure out how long they need to be replaced. This information is also important to the medical staff so they can properly treat these players to get back on the field as soon as possible.
 
@@ -130,7 +133,8 @@ Query 4 is very important for the coaching staff because this shows the types of
 
 Query 5 lists player's last name and the average of the sum of player's goals and assists (points). The average is only listed if it is greater than the average points for the team. 
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/e56d1f9b-8d14-4801-b393-b13e3964ce4a)
+![query 5 project](https://github.com/armon222/MIST-4600/assets/148259051/97a0752f-3287-45fe-b67a-9c585d6bae41)
+
 
 Query 5 shows the coaching staff which players produce the most offense for the team. This information is valuable for strategic purposes, because when the team needs a goal the coaching staff knows these players have the best chance to create offense. This query is also good for evaluating player value when players are negotiating new salaries for contracts. 
 
@@ -138,7 +142,7 @@ Query 5 shows the coaching staff which players produce the most offense for the 
 
 Query 6 shows the manager's last name, manager's role in the front office, and the average salary of the manager in the front office.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/6d73f7fe-7e43-49ce-8326-dd00fb232402)
+![query 6 project15](https://github.com/armon222/MIST-4600/assets/148259051/18f9bd65-2442-4c3e-a5be-1d0884e09138)
 
 Query 6 illustrates the value of the top executives to the team. This information could help decision-making when deciding a manager's salary down the line or a comparable to new manager salaries when they are hiring. The numbers listed above can serve as a baseline for negotiations between ownership and the managers.
 
@@ -146,7 +150,8 @@ Query 6 illustrates the value of the top executives to the team. This informatio
 
 Query 7 lists the first and last name for players that have not been injured yet this season. 
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/235710a6-adcd-4fd3-89ce-2ccab176b9c9)
+![q7p](https://github.com/armon222/MIST-4600/assets/148259051/919f2979-6cfb-4b9f-aa33-3747a204a370)
+
 
 Query 7 allows management to determine which players have been the most durable to the team, which helps assess the value of the player to the team. This can be important when the player and team negotiate a salary for future contracts because if the player is durable and avoids getting hurt they bring more value to the team. Query 7 is also valuable to the medical staff because they can see how the players listed above manage to stay healthy and on the field.
 
@@ -154,7 +159,8 @@ Query 7 allows management to determine which players have been the most durable 
 
 Query 8 lists the company name, match opponent, and the average company contract amount with the club. The average amount has to be greater than 1,000,000.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/26cda41b-4792-46c8-aac1-201353b459e0)
+![query 8 project](https://github.com/armon222/MIST-4600/assets/148259051/d8c6e7c1-9854-4c25-ab19-e2c46ed7bef1)
+
 
 Query 8 shows the major sponsors of the club. The club has some smaller sponsors as well, so the having clause makes the average be at least one million to show the major company sponsors. This information helps the Lions prioritize their highest-value customers and prepare for the match dates where they are sponsors. 
 
@@ -162,7 +168,8 @@ Query 8 shows the major sponsors of the club. The club has some smaller sponsors
 
 Query 9 lists the match result and match opponent for matches in the Lions' home stadium.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/cbe47bec-7337-4fb2-a7c2-62a4b14f9399)
+![query 9 proj](https://github.com/armon222/MIST-4600/assets/148259051/585f2b6a-f25e-4724-84ed-640bd750614a)
+
 
 Query 9 is important to the organization because it illustrates how the team is performing on the home field. Even though these matches are worth the same as away games in the standings, these games are more important because our Fans pay good money to attend the games and we want to put on a winning product for them. So it's very important to win lots of games at home to appease the fans, sponsors, and management. 
 
@@ -170,7 +177,7 @@ Query 9 is important to the organization because it illustrates how the team is 
 
 Query 10 lists the player's last name, player position, coaching role, and the average amount of yellow cards for each player. This information is only shown if the player has an average amount of yellow cards greater or equal to 1.
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/1d9e9d90-c377-4d9a-b480-c906448a0fe0)
+![query 10 project](https://github.com/armon222/MIST-4600/assets/148259051/fe423fa2-a737-443f-a296-04f8be887752)
 
 Query 10 demonstrates which players are getting the most yellow cards, and which coach is their position coach. Query 10 is a good way to evaluate which players are the most undisciplined, so the coaching staff can try to help the player fix this issue. Query 10 also shows which coach has the most undisciplined players, which implies this coach may need to change their tactics. Query 10 is also a good tool for player evaluation, especially when negotiating player salaries.
 
