@@ -97,7 +97,8 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 Query lists the injuries players on the Lions have suffered playing at their home field. 
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/a531848b-c179-4214-9e79-383586a95f40)
+![project query 1](https://github.com/armon222/MIST-4600/assets/148259051/ccc9fa81-952e-47d2-80b1-7607d7da29b7)
+
 
 Query one allows the managers to see the number and type of injuries occurring to players on the Lions' home field. This shows potential dangers that might arise from the design or texture of the playing surface. This query influences managers' decisions on how to design the field in the future, as well as lets the medical and training staff better prepare for injuries that may occur during a game
 
