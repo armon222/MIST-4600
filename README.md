@@ -127,7 +127,7 @@ Query 4 is very important for the coaching staff because this shows the types of
 
 ### Query 5
 
-Query 5 lists player last name and the average of the sum of player goals and assists (points). The average is only listed if it is greater than the average points for the team. 
+Query 5 lists player's last name and the average of the sum of player's goals and assists (points). The average is only listed if it is greater than the average points for the team. 
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/e56d1f9b-8d14-4801-b393-b13e3964ce4a)
 
@@ -135,11 +135,11 @@ Query 5 shows the coaching staff which players produce the most offense for the 
 
 ### Query 6
 
-Query 6 is showing the manager last name, manager role in the front office, and the average salary of the manager in the front office.
+Query 6 shows the manager's last name, manager's role in the front office, and the average salary of the manager in the front office.
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/6d73f7fe-7e43-49ce-8326-dd00fb232402)
 
-Query 6 illustrates the value of the top executives to the team. This information could help decision making when decisions on manager salaries down the line or a comparable to new manager salaries when they are hiring. The numbers listed above can serve as baseline for negotiations between ownership and the team.
+Query 6 illustrates the value of the top executives to the team. This information could help decision-making when deciding a manager's salary down the line or a comparable to new manager salaries when they are hiring. The numbers listed above can serve as a baseline for negotiations between ownership and the team.
 
 ### Query 7
 
@@ -147,7 +147,7 @@ Query 7 lists the first and last name for players that have not been injured yet
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/235710a6-adcd-4fd3-89ce-2ccab176b9c9)
 
-Query 7 allows management to determine which players have been the most durable to the team, which helps assess the value of the player to the team. This can be important when the player and team negotiate a salary for future contracts, because if the player is durable and avoids getting hurt they bring more value to the team. Query 7 is also valuable to the medical staff because they can see how the players listed above manage to stay healthy and on the field.
+Query 7 allows management to determine which players have been the most durable to the team, which helps assess the value of the player to the team. This can be important when the player and team negotiate a salary for future contracts because if the player is durable and avoids getting hurt they bring more value to the team. Query 7 is also valuable to the medical staff because they can see how the players listed above manage to stay healthy and on the field.
 
 ### Query 8 
 
@@ -155,12 +155,12 @@ Query 8 lists the company name, match opponent, and the average company contract
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/26cda41b-4792-46c8-aac1-201353b459e0)
 
-Query 8 shows the major sponsors to the club. The club has some smaller sponsors as well, so the having clause makes the average be at least one million to show the major company sponsors. This information helps the Lions prioritize their highest value customers and prepare for the match dates where they are sponsors. 
+Query 8 shows the major sponsors of the club. The club has some smaller sponsors as well, so the having clause makes the average be at least one million to show the major company sponsors. This information helps the Lions prioritize their highest-value customers and prepare for the match dates where they are sponsors. 
 
 ### Query 9 
 
-Query 9 lists the match result and match opponent for matches in the Lions home stadium.
+Query 9 lists the match result and match opponent for matches in the Lions' home stadium.
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/cbe47bec-7337-4fb2-a7c2-62a4b14f9399)
 
-Query 9 is important to the organization because it illustrates how the team is performing on home field. Even though these matches are worth the same as away games in the standings, these games are more important because our Fans pay good money to attend the games and we want to put on a winning product for them. So it's very important to win lots of games at home to appease the fans, sponsors, and management. 
+Query 9 is important to the organization because it illustrates how the team is performing on the home field. Even though these matches are worth the same as away games in the standings, these games are more important because our Fans pay good money to attend the games and we want to put on a winning product for them. So it's very important to win lots of games at home to appease the fans, sponsors, and management. 
