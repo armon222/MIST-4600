@@ -10,26 +10,26 @@
 
 ## Problem Description:
 
-The challenge is to model and build a relational database for the operations of a new football club called the Georgia Lions. In the model, the main entity is Players, which describes all of the players personal information and statistics on the field. The other entities either support, magnify, monetize, or track player performance and relationships with other parts of the Georgia Lions operation. For this new team, we want to comprehensively model these relationships, obtain data for the entities, and use queries to answer questions which will help evaluate performance on and off the field of the club. 
+The challenge is to model and build a relational database for the operations of a new football club called the Georgia Lions. In the model, the main entity is Players, which describes all of the player's personal information and statistics on the field. The other entities either support, magnify, monetize, or track player performance and relationships with other parts of the Georgia Lions operation. For this new team, we want to comprehensively model these relationships, obtain data for the entities, and use queries to answer questions that will help evaluate performance on and off the field of the club. 
 
 ## Data Model:
 
 ### Explanation of data model:
 
-The data model is based off the necessary operations for a football club. The managers entity describes all the different types of people who work in the front office of the club in scouting, player development, and overall team evaluation. The managers hire many coaches, who report to the many managers as their bosses. This creates the many to many relationship between Coaches and Managers, with Managers_has_Coaches as the weak entity. The coaches entity describes the many coaches in the organization by name, role, and salary. 
-The coaches have many players that they coach, but each player has one coach that trains them specifically (ex. Defensive coach trains the defensive players). This establishes the one to many relationship between Players and Coaches. As described earlier, Players is the main entry in the database, representing information about the players name, nationality, individual statistics, and who is their coach. 
+The data model is based on the necessary operations for a football club. The managers entity describes all the different types of people who work in the front office of the club in scouting, player development, and overall team evaluation. The managers hire many coaches, who report to the many managers as their bosses. This creates a many-to-many relationship between Coaches and Managers, with Managers_has_Coaches as the weak entity. The coaches entity describes the many coaches in the organization by name, role, and salary. 
+The coaches have many players that they coach, but each player has one coach that trains them specifically (ex. Defensive coach trains the defensive players). This establishes the one-to-many relationship between Players and Coaches. As described earlier, Players is the main entry in the database, representing information about the player's name, nationality, individual statistics, and who is their coach. 
 
 
-The Players table branches off in a few different directions, the Youth Academy table represents all the players who are on the youth squad. This table gives the youth player’s name, birthday, position, nationality, and ID. There are many players in the youth academy, but players can only belong to the one Youth Academy, creating a one to many relationship. Going to another branch, Players can play in many Matches, and this creates a many to many relationship where Injuries is the associative entity. Matches allow for all team results on the schedule to be tracked. The Injuries table illustrates injury type and severity for a player in a match. 
+The Players table branches off in a few different directions, the Youth Academy table represents all the players who are on the youth squad. This table gives the youth player’s name, birthday, position, nationality, and ID. There are many players in the youth academy, but players can only belong to one Youth Academy, creating a one-to-many relationship. Going to another branch, Players can play in many Matches, and this creates a many-to-many relationship where Injuries are the associative entity. Matches allow for all team results on the schedule to be tracked. The Injuries table illustrates injury type and severity for a player in a match. 
 
 
-The external factors of the club are tracked as well, The Fans table shows a fan’s name, email address, the amount of team merchandise they have purchased, and whether or not they are a season ticket holder. Fans attend many Matches, and Matches have many Fans, so this creates another many to many relationship, creating an associative entity we called Stadiums. The stadium's entity uniquely identifies each stadium, which fans are in attendance, which match is being played at the stadium, as well as the stadium name and capacity. 
+The external factors of the club are tracked as well, The Fans table shows a fan’s name, email address, the amount of team merchandise they have purchased, and whether or not they are a season ticket holder. Fans attend many Matches, and Matches have many Fans, so this creates another many-to-many relationship, creating an associative entity we call Stadiums. The stadium's entity uniquely identifies each stadium, which fans are in attendance, which match is being played at the stadium, as well as the stadium name and capacity. 
 
 
 The sponsors table describes the important details about our club sponsors like sponsor name, contact information, and the value of their contract with the club. Sponsors are at many Matches, and Matches have many Sponsors, so we created an associative entity called Sponsorship, giving more granular detail about each individual sponsorship at each match. 
 
 
-Lastly, the Fans entity and Players entity has a many to many relationship, because fans like many Players, and Players have many Fans. We created the Favorite Players entity to track which Players are fan favorites!
+Lastly, the Fans entity and Players entity have a many-to-many relationship, because fans like many Players, and Players have many Fans. We created the Favorite Players entity to track which Players are fan favorites!
 
 ### The Data Model
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/88d1fe69-6064-4164-99c0-42c5e63dd189)
@@ -90,6 +90,39 @@ Lastly, the Fans entity and Players entity has a many to many relationship, beca
 
 ### Feature Matrix
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/e276be34-a0bb-4587-a6ea-eee248c9836f)
+![image](https://github.com/armon222/MIST-4600/assets/62662242/d30d178b-a4c1-4835-b00a-44f96d633f64)
 
 ### Query 1
+
+Query lists the injuries players on the Lions have suffered playing at their home field. Results are ordered by Player's Last Name in descending order.
+
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/a531848b-c179-4214-9e79-383586a95f40)
+
+Query one allows the managers to see the number and type of injuries occurring to players on the Lions' home field. This shows potential dangers that might arise from the design or texture of the playing surface. This query influences managers' decisions on how to design the field in the future, as well as lets the medical and training staff better prepare for injuries that may occur during a game
+
+### Query 2
+
+Query 2 lists the favorite players of fans who are from the United States. The query concatenates the player's first and last name, and results are ordered by the player's first and last name descending.
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/4fb2e766-906b-46fd-a573-4e6f2813c9c6)
+
+Query 2 allows the managers to see who the most popular players on the team are who are from the United States. This is particularly important since the Lions play in Georgia the American players might be more marketable to the fans. Seeing this information might help the management team figure out which players to use in community events or to promote the team locally. 
+
+### Query 3
+
+Query 3 lists the Fan's first and last name, email address, and amount spent on team merchandise that are season ticket holders.
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/0159ff76-5e61-4704-be1c-c9550ef2901e)
+
+Query 3 shows the management team the new Fans of the team and their contact information. This is valuable information because the team now can further contact these Fans with more deals and ways to get them into more games. The Lions also know how much they spend on Merchandise, so they can specifically offer them deals related to the cost of items they tend to purchase. 
+
+### Query 4
+
+Query 4 lists the player's first and last name, and the type of injury sustained only for players who have scored higher than the average amount of goals on the team. 
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/a45e3b4b-2903-49be-b79f-4b59c8bc5d48)
+
+Query 4 is very important for the coaching staff because this shows the types of injuries being suffered by the team's best scoring threats. The organization needs to know what type of injuries these players sustained, so they figure out how long they need to be replaced. This information is also important to the medical staff so they can properly treat these players to get back on the field as soon as possible.
+
+### Query 5
