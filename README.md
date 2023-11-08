@@ -14,7 +14,7 @@ The challenge is to model and build a relational database for the operations of 
 
 ## Data Model:
 
-Explanation of data model:
+### Explanation of data model:
 
 The data model is based off the necessary operations for a football club. The managers entity describes all the different types of people who work in the front office of the club in scouting, player development, and overall team evaluation. The managers hire many coaches, who report to the many managers as their bosses. This creates the many to many relationship between Coaches and Managers, with Managers_has_Coaches as the weak entity. The coaches entity describes the many coaches in the organization by name, role, and salary. 
 The coaches have many players that they coach, but each player has one coach that trains them specifically (ex. Defensive coach trains the defensive players). This establishes the one to many relationship between Players and Coaches. As described earlier, Players is the main entry in the database, representing information about the players name, nationality, individual statistics, and who is their coach. 
@@ -30,6 +30,10 @@ The sponsors table describes the important details about our club sponsors like 
 
 
 Lastly, the Fans entity and Players entity has a many to many relationship, because fans like many Players, and Players have many Fans. We created the Favorite Players entity to track which Players are fan favorites!
+
+### The Data Model
+![image](https://github.com/armon222/MIST-4600/assets/62662242/88d1fe69-6064-4164-99c0-42c5e63dd189)
+
 
 
 
