@@ -84,3 +84,12 @@ Lastly, the Fans entity and Players entity has a many to many relationship, beca
 ### Table: Manager_has_Coaches
 
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/e2c73b61-41cd-4fc4-aa45-82172287582d)
+
+
+## Queries
+
+### Feature Matrix
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/e276be34-a0bb-4587-a6ea-eee248c9836f)
+
+### Query 1
