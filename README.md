@@ -48,7 +48,7 @@ Lastly, the Fans entity and Players entity have a many-to-many relationship, bec
 
 ### Table: Fans
 
-![image](https://github.com/armon222/MIST-4600/assets/62662242/849c54d3-6325-4d3e-90f5-cdaea535b1d2)
+![pic4](https://github.com/armon222/MIST-4600/assets/62662242/ef7d6d74-1e51-43fd-b0b9-5ea552364acf)
 
 ### Table: FavoritePlayers
 
