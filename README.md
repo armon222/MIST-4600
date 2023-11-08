@@ -35,5 +35,52 @@ Lastly, the Fans entity and Players entity has a many to many relationship, beca
 ![image](https://github.com/armon222/MIST-4600/assets/62662242/88d1fe69-6064-4164-99c0-42c5e63dd189)
 
 
+## Data Dictionary
 
+### Table: Matches
 
+![image](https://github.com/armon222/MIST-4600/assets/62662242/01413aaf-676a-4f17-8228-649b64891ad2)
+
+### Table: Coaches
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/4198559d-c50f-432b-85f3-eafee03ce2f1)
+
+### Table: Fans
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/849c54d3-6325-4d3e-90f5-cdaea535b1d2)
+
+### Table: FavoritePlayers
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/fe1c7831-8955-4ac7-9025-079289afdb13)
+
+### Table: Managers
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/3197194d-230f-4120-83ab-db6fb6c3bc17)
+
+### Table: Sponsors
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/9ab5d236-dd7f-4cd2-8112-bd1dc90cfe26)
+
+### Table: Sponsorships
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/87f9e193-17af-45bc-8437-0d5cae01705f)
+
+### Table: Stadium
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/ee7a2190-da5c-4673-a4cc-e62543e02b5e)
+
+### Table: Youth Academy
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/ff190c37-fb64-44e2-bc3e-bb50d5e8511b)
+
+### Table: Players
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/62799eb1-8107-4790-b10e-04c54bcab042)
+
+### Table: Injuries
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/6414d925-7bcb-40c0-a2db-47d1aee66724)
+
+### Table: Manager_has_Coaches
+
+![image](https://github.com/armon222/MIST-4600/assets/62662242/e2c73b61-41cd-4fc4-aa45-82172287582d)
